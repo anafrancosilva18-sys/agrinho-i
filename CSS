@@ -1,0 +1,58 @@
+/* MELHORIA 5: Definindo uma paleta de cores padrão */
+:root {
+    --cor-fundo: #f4f7f6;
+    --cor-principal: #2c3e50;
+    --cor-texto: #333333;
+    --cor-destaque: #3498db;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: 20px;
+}
+
+/* MELHORIA 3: Hierarquia visual e espaçamento */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: var(--cor-principal);
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* MELHORIA 1 & 2: Imagem proporcional e adaptável */
+.imagem-post {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+}
