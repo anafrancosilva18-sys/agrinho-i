@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meu blog tech</h1>
+        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="#">Sobre Mim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post">
+            <h2>Meu primeiro post</h2>
+            <p class="autor">Por: Marcelo Paludetto</p>
+            
+            <img src="codigo-tela.jpg" alt="Linhas de código de programação coloridas brilhando em uma tela de computador escura, representando o início da jornada tech." class="imagem-post">
+            
+            <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+        </article>
+    </main>
+
+</body>
+</html>
