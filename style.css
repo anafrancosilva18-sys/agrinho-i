@@ -1,0 +1,6 @@
+.imagem-post {
+    max-width: 100%; /* Garante que ela não passe da largura da tela */
+    height: auto;    /* Mantém a proporção original, sem distorcer a foto */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem e dá um espaço do texto */
+}
